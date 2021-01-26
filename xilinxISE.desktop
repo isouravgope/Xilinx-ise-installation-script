@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=~/.local/pn-ise.png
+Name=ISE 14.7
+Exec=bash '/media/theglitchh/sourav/opt/Xilinx/14.7/ISE_DS/run_ise.sh'
+Comment=Runs Xilinx ISE 14.7

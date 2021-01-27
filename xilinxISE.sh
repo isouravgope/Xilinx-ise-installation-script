@@ -3,6 +3,19 @@
 echo -e "starting the  installation process"
 sleep 2s
 
+echo -e "checking libraries"
+sleep 2s
+librarylib=`find -iname "*libncurses*"`
+echo ${blue}"library location is in " $librarylib ${txtrst}
+
+echo "installing required library"
+cd ~/.local && wget http://ftp.de.debian.org/debian/pool/main/n/ncurses/libncurses5_6.1+20181013-2+deb10u2_amd64.deb
+sudo dpkg -i ~/.local/lib*.deb
+echo "removing unwanted packages"
+rm -rf ~/.local/lib*.deb
+echo "installing library complete"
+sleep 5s
+
 echo -e "checking for the Xilinux ISE file"
 red=$(tput setaf 1)
 blue=$(tput setaf 6)

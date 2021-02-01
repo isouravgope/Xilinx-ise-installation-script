@@ -11,6 +11,7 @@ echo ${blue}"library location is in " $librarylib ${txtrst}
 echo "installing required library"
 cd ~/.local && wget http://ftp.de.debian.org/debian/pool/main/n/ncurses/libncurses5_6.1+20181013-2+deb10u2_amd64.deb
 sudo dpkg -i ~/.local/lib*.deb
+sudo apt-get install -f
 echo "removing unwanted packages"
 rm -rf ~/.local/lib*.deb
 echo "installing library complete"

@@ -21,4 +21,4 @@ give execution permission to the file using the preceding command
 run this command to start the script
 ``` initScript=`find -iname "xilinxISE.sh"` && sudo bash $initScript```
 
-Happy Hardware coding :) say hello to [TheGlitchh](wa.me/+919366855940) if you are having any trouble regarding the Script.
+Happy Hardware coding :) say hello to [TheGlitchh](https://wa.me/+919366855940) if you are having any trouble regarding the Script.
